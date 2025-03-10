@@ -41,6 +41,12 @@ There are "bites" on the boxes that are on the plot above. They represent the st
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+The size of the box goes from 0 to 12 and the others go from 0 to 4.
+
 ## Inferential Tests
 
 ## Conclusions
